@@ -13,12 +13,17 @@ def check(name,name1):
     print(name1)
 def private1(p=2):#可以預設數字
     print(p)
-def more(*NAME):
+def more(*NAME): #tuple 把資料放在列表裡
     print(NAME)
     print("ONE:",NAME[6])
     apple[0]=NAME
-
-more(5,9,10,5,6,8,9,9,9,9)
+    for x in NAME:
+        print(x)
+def square(n1,n2):
+    total=n1**n2
+    print(total)
+more(5,9,10,5,6,8,9,9,9,9) 
+square(2,10)
 check(name1=5,name=3) #對應相同的參數名稱 
 private1()
 print("apple:",apple)
