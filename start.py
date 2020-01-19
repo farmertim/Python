@@ -1,3 +1,6 @@
+def math(number,number1):
+    return(number1+number)
+
 print("Hello Python")
 #number
 3456
