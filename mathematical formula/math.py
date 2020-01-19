@@ -22,5 +22,5 @@ def division(*number):
             
         count+=1
     return total
-print(division(9,3,2))
+
 
