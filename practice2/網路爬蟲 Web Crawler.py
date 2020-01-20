@@ -10,6 +10,7 @@ with request.urlopen(data) as response:
 
 #解析原始碼，取的文章的標題 要下載 BeautifulSOup
 import bs4
+#parser 解析器
 root=bs4.BeautifulSoup(final,"html.parser")#讓BeautifulSoup 協助我們找尋HTML格式文件
 #titles=root.find("div",class_="title")#尋找一個class="title" 的div標籤
 titles=root.find_all("div",class_="title")#尋找所有class="title" 的div標籤
