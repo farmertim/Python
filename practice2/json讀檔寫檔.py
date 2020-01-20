@@ -13,6 +13,6 @@ data["name"]=name
 data["sex"]=sex
 print(name)
 with open("practice.json",mode="w",encoding="utf-8")as file:
-    json.dump(data,file)
+    json.dump(data,file)#複寫資料
 
     
