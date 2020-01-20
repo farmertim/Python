@@ -1,5 +1,4 @@
 import urllib.request as request #網路連線的東溪
-import urllib.request as request
 import json
 #臺北市水質監測資訊網站 
 src="	https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=190796c8-7c56-42e0-8068-39242b8ec927"
