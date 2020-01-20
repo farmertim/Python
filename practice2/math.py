@@ -1,3 +1,5 @@
+
+
 def Add(*number):#加法
     total=0
     for num in number:
@@ -21,6 +23,4 @@ def division(*number):
             total/=num
         count+=1
     return total
-
-
 
