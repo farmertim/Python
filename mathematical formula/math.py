@@ -19,8 +19,8 @@ def division(*number):
     for num in number:
         if count!=0:
             total/=num
-            
         count+=1
     return total
+
 
 
