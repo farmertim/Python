@@ -1,8 +1,9 @@
-print(pow(2,32))
 number=int(input())
 a=[]
 count=0
 count1=0
+data={}
+
 for i in range(number):
     a.append(int(input()))
 for i in range(number):
@@ -12,10 +13,10 @@ for i in range(number):
             if b[k]=='7':
                 count1=1
                 break
-        if count1==1:
+        if count1!=1:
             count+=1
         count1=0
-    print(int(a[i])-count)
+    print(count)
     count=0
     
 
